@@ -133,7 +133,7 @@ c.fillStyle = 'black';
 c.fillText('THE BLACK CURVE: (0.1,Math.PI) //degree from 5.73° to 180°', 30, 680);
 c.fillText('formula: π/180*degree=0.1    degree: 0.1*180/π ≈ 5.73°', 30, 710);
 c.fillStyle = 'hotpink';
-c.fillText('THE PINK CURVE: (0.3,Math.PI*1.9) //degree from 60° to 342°', 30, 740);
+c.fillText('THE PINK CURVE: (0.3,Math.PI*1.9) //degree from 17.19° to 342°', 30, 740);
 c.fillText('formula: π/180*degree=0.3    degree: 0.3*180/π ≈ 17.19°', 30, 770);
 c.fillStyle = 'green';
 c.fillText('THE GREEN CURVE: (4.5,5.5) //degree from 257.83° to 315.13°', 30, 800);
