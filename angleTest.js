@@ -148,22 +148,4 @@ c.fillText('formula: π/180*degree=4.5    degree: 4.5*180/π ≈ 257.83°', 30, 
 //     c.stroke();
 // }
 
-// var x=100;
-// var radius=50;
-// var xVl=1;
-// function animate(){
-//     requestAnimationFrame(animate);
-// c.beginPath();
-// c.lineWidth=10;
-// c.clearRect(0,0,innerWidth,innerHeight);
-// c.arc(x,500,50,0.1,6.1,false);
-// c.strokeStyle='orange';
-// c.stroke();
-// x+=xVl;  
-//  if(
-//     x+radius>=window.innerWidth
-//  ){xVl=-1;}else if(x-radius<=0){
-//      xVl=1;
-//  }
-// }
-// animate();
+
