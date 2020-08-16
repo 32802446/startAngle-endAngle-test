@@ -1,42 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <title>Experiment Canvas</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
-        canvas{
-            border:1px solid black;
-            background: #f2f2f2;
-        }
-        body{
-            margin:0;
-            
-        }
+            canvas {
+                border: 1px solid black;
+                background: #f2f2f2;
+            }
+
+            body {
+                margin: 0;
+
+            }
         </style>
     </head>
-    <body>
-            <label for="">PositionX:</label>
-            <input type="text" id="xCor" value="">
-            <label for="">PositionY:</label>
-            <input type="text" id="yCor" value=""> 
-    <canvas id="">
 
-    </canvas>
-    <script>
-        function readCoordinates(dot){
-                var x=document.getElementById('xCor');
-                var y=document.getElementById('yCor');
-                x.value=dot.clientX;
-                y.value=dot.clientY;
-            
-               
-        }
-        document.onmousemove=readCoordinates;
-        
-    </script>
-    <!-- <script src="angleTest.js"></script> -->
-    <script src="circles.js"></script>
+    <body>
+        <label for="">PositionX:</label>
+        <input type="text" id="xCor" value="">
+        <label for="">PositionY:</label>
+        <input type="text" id="yCor" value="">
+        <canvas id="">
+
+        </canvas>
+        <script>
+            function readCoordinates(dot) {
+                var x = document.getElementById('xCor');
+                var y = document.getElementById('yCor');
+                x.value = dot.clientX;
+                y.value = dot.clientY;
+
+
+            }
+            document.onmousemove = readCoordinates;
+
+        </script>
+        <script src="angleTest.js"></script>
+        <!-- <script src="canvas.js"></script> -->
+        <!-- <script src="circles.js"></script> -->
 
     </body>
+
 </html>
